@@ -27,6 +27,13 @@
             <div class="name-and-date">
               <span class="full-name-tlist">{{topic.posters.[0].user.name}}</span>
               <span class="username">{{topic.posters.[0].user.username}}</span>
+                {{#if topic.posters.[0].user.custom_fields.workspace}}
+                <span class="workspace">ワークスペース: {{topic.posters.[0].user.custom_fields.workspace}}</span>
+              {{/if}}
+
+              {{#if topic.posters.[0].user.custom_fields.location}}
+                <span class="location">位置: {{topic.posters.[0].user.custom_fields.location}}</span>
+              {{/if}}
               <span class="list-date">{{theme-i18n "created_at"}} {{format-date topic.createdAt format="tiny"}}</span>
             </div>
           </a>

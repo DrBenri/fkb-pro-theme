@@ -84,6 +84,18 @@
               content: '@';
             }
           }
+          .fkb-location {
+            font-size: var(--font-down-1);
+            font-weight: normal;
+            color: var(--primary-high);
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            .d-icon-map-marker-alt {
+              margin-right: 0.25em;
+              font-size: 0.9em;
+            }
+          }
           span:empty+span:not(:empty) {
             font-size: var(--font-up-1);
             font-weight: bold;

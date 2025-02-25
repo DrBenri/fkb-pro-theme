@@ -137,7 +137,7 @@ h2.username,
   &.show,
   &.no-bg {
     .card-content {
-      border-radius: var(--d-default-border-radius);
+      // border-radius: var(--d-default-border-radius); //overider
       border: 1px solid var(--primary-low);
     }
   }

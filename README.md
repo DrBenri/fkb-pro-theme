@@ -5,3 +5,7 @@
 **FKB Pro** is a highly modified, detailed, professional social theme, but still user-friendly. :rocket:
 
 [**See the theme discussion here on Discourse**](https://meta.discourse.org/t/fkb-pro-social-theme/234323/1)
+
+
+#This is customizer for Dr.benri community
+Search *overider* for updated code.
