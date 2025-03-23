@@ -17,6 +17,27 @@ topic_image_fit:
     - scale-down
     - none
   description: "Select the topic list image (thumbnail) fit. More info: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit"
+topic_image_position:
+  default: center
+  type: enum
+  choices:
+    - top
+    - right
+    - bottom
+    - left
+    - center
+    - top left
+    - top right
+    - bottom left
+    - bottom right
+    - center left
+    - center right
+    - center center
+  description: "Select the topic list image (thumbnail) position. More info: https://developer.mozilla.org/en-US/docs/Web/CSS/background-position"
+topic_image_backgorund:
+  type: color
+  default: "#B7C9E2"
+  description: "Change the topic list image (thumbnail) section background color."
 topic_image_backdrop:
   type: bool
   default: false

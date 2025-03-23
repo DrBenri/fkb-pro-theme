@@ -181,6 +181,34 @@
             @if ($topic_image_fit == cover) {
               object-fit: cover;
             }
+
+            @if ($topic_image_position == center) {
+              object-position: center;
+            }
+            @if ($topic_image_position == top) {
+              object-position: top;
+            }
+            @if ($topic_image_position == bottom) {
+              object-position: bottom;
+            }
+            @if ($topic_image_position == left) {
+              object-position: left;
+            }
+            @if ($topic_image_position == right) {
+              object-position: right;
+            }
+            @if ($topic_image_position == top-left) {
+              object-position: top left;
+            }
+            @if ($topic_image_position == top-right) {
+              object-position: top right;
+            }
+            @if ($topic_image_position == bottom-left) {
+              object-position: bottom left;
+            }
+            @if ($topic_image_position == bottom-right) {
+              object-position: bottom right;
+            }
           }
         }
         .topic-excerpt {
