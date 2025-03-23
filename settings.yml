@@ -34,8 +34,8 @@ topic_image_position:
     - center right
     - center center
   description: "Select the topic list image (thumbnail) position. More info: https://developer.mozilla.org/en-US/docs/Web/CSS/background-position"
-topic_image_backgorund:
-  type: color
+topic_image_background:
+  type: string
   default: "#B7C9E2"
   description: "Change the topic list image (thumbnail) section background color."
 topic_image_backdrop:

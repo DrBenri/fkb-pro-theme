@@ -237,8 +237,8 @@
               object-position: bottom right;
             }
 
-            @if $topic_image_backgorund {
-              background: $topic_image_backgorund;
+            @if $topic_image_background {
+              background: $topic_image_background;
             }
           }
         }
